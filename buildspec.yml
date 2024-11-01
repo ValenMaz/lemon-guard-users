@@ -8,6 +8,7 @@ phases:
       - pip install -r requirements.txt
       - pip install -r requirements.dev.txt
       - pip install docker-compose==2.23.3
+      - pip install docker
 
   pre_build:
     commands:
